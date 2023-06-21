@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Projectapp</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="tile_spalsh">Task-Master</string>
+    <string name="welcomemsg">Welcome To Task-Master!</string>
+    <string name="signup">Sign-up</string>
+    <string name="Signup">SIGN UP</string>
+    <string name="lastline">"Stay on track, every day!"</string>
+    <string name="enteruser">Enter your Username</string>
+    <string name="lastdext">By creating an account,you agree to Talk_hive\'s Terms of Service Privavy Policy and Content Policies</string>
+    <string name="Login">Login</string>
+</resources>

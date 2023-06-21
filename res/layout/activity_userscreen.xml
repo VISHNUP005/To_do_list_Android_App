@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/usernameemail"
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+
+            android:gravity="center"
+            android:text="vishnuprasadpj2002@com"
+            android:textSize="8pt"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:id="@+id/logout"
+            android:layout_width="15dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:background="@mipmap/logout"
+
+            android:text="logout"
+            android:textSize="12pt" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/usernamshow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="@dimen/usernamesize"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/addtask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Task"
+        android:layout_marginLeft="20pt"
+        android:layout_marginTop="30pt"
+        android:layout_marginRight="20pt"
+        android:textSize="8pt"/>
+
+    <Button
+        android:id="@+id/viewtask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Task"
+        android:layout_marginTop="30pt"
+        android:layout_marginLeft="20pt"
+        android:layout_marginRight="20pt"
+        android:textSize="8pt"/>
+
+
+</LinearLayout>

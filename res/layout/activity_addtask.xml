@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include layout="@layout/toolbar"
+    android:id="@+id/toolbar"/>
+
+    <EditText
+        android:id="@+id/newtask"
+        android:layout_width="281dp"
+        android:layout_height="66dp"
+        android:layout_x="80dp"
+        android:layout_y="236dp"
+        android:ems="10"
+        android:hint="Enter new Task"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/addtask1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="56dp"
+        android:layout_y="364dp"
+        android:text="Add" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="250dp"
+        android:layout_y="367dp"
+        android:text="Back" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="86dp"
+        android:layout_y="123dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Your name here"/>
+
+    <EditText
+        android:id="@+id/taskno"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_x="27dp"
+        android:layout_y="247dp"
+        android:ems="10"
+        android:hint="No"
+        android:inputType="text" />
+
+ 
+
+</AbsoluteLayout>

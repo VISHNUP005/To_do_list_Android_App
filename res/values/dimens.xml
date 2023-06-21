@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="welcomemsg">13pt</dimen>
+    <dimen name="buttons">8pt</dimen>
+    <dimen name="lasttext">40px</dimen>
+    <dimen name="passwordsize">12pt</dimen>
+    <dimen name="usernamesize">15pt</dimen>
+</resources>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black_overlay"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/continue_with_facebookbtn"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10pt"
+            android:layout_marginTop="8pt"
+            android:background="@mipmap/continuewithfacebooklogo1"
+            android:text="Button" />
+
+        <ImageButton
+            android:id="@+id/continue_with_googlebtn"
+            android:layout_width="352dp"
+            android:layout_height="46dp"
+            android:layout_marginLeft="10pt"
+            android:layout_marginTop="8pt"
+
+            android:background="@mipmap/continuewithgooglelogo1"
+            android:text="Button" />
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/usernameinsignup"
+        android:layout_width="389dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5pt"
+        android:hint="Enter user name"
+        android:textSize="10pt" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:ems="10"
+        android:hint="Email"
+        android:layout_marginTop="10pt"
+        android:layout_marginBottom="10pt"
+
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/password1"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:ems="10"
+        android:hint="Password"
+        android:layout_marginBottom="10pt"
+        android:inputType="text" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="31dp" />
+
+    <Button
+        android:id="@+id/login1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/signup"
+        android:layout_marginLeft="46pt"
+        android:layout_marginRight="50pt"
+        android:textSize="9pt"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/gotologin"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="20px"
+        android:gravity="center"
+        android:text="Click here to Login" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lastdext"
+        android:layout_marginTop="100pt"/>
+
+</LinearLayout>
+
